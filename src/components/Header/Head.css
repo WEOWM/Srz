@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+.com-screen{
+    color: black; 
+}
+.sub-com-screen{
+    display: flex;
+}
+.com-nav{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.com-subnav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+    right:3rem;
+}
+.com-subnav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.com-subnav li{
+    list-style: none;
+    gap: 2rem;
+}
+.logo{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+}
+/* -------- Mobile Navbar -------- */
+.mob-nav{
+    width: 100%;
+    height: 5rem;
+}
+.sub-mob-navbar {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+   
+}
+.mob-header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+
+}
+.mob-logo{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+.mob-handbuger{   
+    width: 50%;
+    height: 5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+   
+}
+.canvas-head{
+    font-family: 'Abril Fatface', cursive;
+}
+.canvas-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  
+    
+    
+}
+.canvas-body li {
+    list-style: none;
+    align-items: center;
+    
+    
+    
+}
+.canvas-body a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+   
+}
+
+
+
+
+@media  screen and (max-width:992px){
+    .sub-com-screen{
+        display: none;
+    }    
+}
+@media screen and (min-width:990px){
+    .mob-nav{
+        display: none;
+    }
+    
+}    
+
+  
