@@ -1,9 +1,11 @@
 import React from 'react'
+import Head from '../../components/Header/Head'
 import './Abouts.css'
 
 function About() {
   return (
     <div>
+        <Head/>
         <div className="container">
             <div className="row">
             <div className="about">
