@@ -6,28 +6,29 @@ const Head = () => {
   return (
     <div>
       <div className="container-fluid">
-        <div className="row com-screen">
-          <div className="sub-com-screen">
-            <div className="logo">
-              <h4 className='fa-2x'>Srz.Esports.Org</h4>
-            </div>
-            <div className="com-nav ">
-              <div className="com-subnav ">
-                <li >
+        <div className="row">
+          <div className="computer-screen">
+            <div className="com-head">
+              <div className="logo">
+                <h2>Srz Esports.Org</h2>
+              </div>
+              <div className="com-navbar">
+                <li>
                   <NavLink to={'/'}>Home</NavLink>
                 </li>
                 <li>
                   <NavLink to={'/about'}>About</NavLink>
                 </li>
                 <li>
-                  <NavLink>Teams</NavLink>
+                  <NavLink to={'/Teams'}>Teams</NavLink>
                 </li>
                 <li>
-                  <NavLink>Players</NavLink>
+                  <NavLink to={'/Players'}>Players</NavLink>
                 </li>
                 <li>
-                  <NavLink>Streamers</NavLink>
+                  <NavLink to={'/'}>Streamers</NavLink>
                 </li>
+
               </div>
             </div>
           </div>
@@ -62,10 +63,10 @@ const Head = () => {
                     <NavLink to={'/about'}>About</NavLink>
                   </li>
                   <li>
-                    <NavLink>Teams</NavLink>
+                    <NavLink to={'/Teams'}>Teams</NavLink>
                   </li>
                   <li>
-                    <NavLink>Players</NavLink>
+                    <NavLink to={'/Players'}>Players</NavLink>
                   </li>
                   <li>
                     <NavLink>Streamers</NavLink>
@@ -76,7 +77,7 @@ const Head = () => {
           </div>
           {/* Tap screen */}
 
-{/* 
+          {/* 
           <div className="Tap-nav">
             <div className="sub-Tap-nav">
               <div className="Tap-header">

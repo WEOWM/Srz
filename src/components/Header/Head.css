@@ -3,48 +3,40 @@
 
 
 
-.com-screen{
-    color: black; 
-    
-    
-}
-.sub-com-screen{
-    display: flex;
-}
-.com-nav{
-    width: 50%;
+.computer-screen{
+    width: 100%;
     height: 5rem;
+    background-color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    
-    
 }
-.com-subnav{
+.com-head{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    position: relative;
-    right:3rem;
-}
-.com-subnav a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Rubik', sans-serif;
-}
-.com-subnav li{
-    list-style: none;
-    gap: 2rem;
+    align-items: center;
+    
 }
 .logo{
     width: 50%;
-    height: 5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+.com-navbar{
+    width: 50%;
     display: flex;
     align-items: center;
-    font-family: 'Abril Fatface', cursive;
-   
+    justify-content: flex-end;
+    gap: 2rem;
+    font-family: 'Rubik', sans-serif;
 }
-/* -------- Mobile Navbar -------- */
+.com-navbar li{
+    list-style: none;
+
+}
+.com-navbar a{
+    text-decoration: none;
+    color: black;
+}
+                    /* -------- Mobile Navbar -------- */
 .mob-nav{
     width: 100%;
     height: 5rem;
@@ -113,7 +105,7 @@
 
 
 @media  screen and (max-width:992px){
-    .sub-com-screen{
+    .computer-screen{
         display: none;
     }    
 }

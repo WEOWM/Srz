@@ -11,7 +11,7 @@ function About() {
             <div className="about">
             <div className="col-">
                 <p>SRZ Esports.Org Create By SRZ REVIL in 2019 </p>
-                <p>This ORG fomed in Gaming in 2021 </p>
+                <p>Soon....</p>
             </div>
         </div>
             </div>
